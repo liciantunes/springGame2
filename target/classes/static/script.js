@@ -42,7 +42,6 @@ function pesquisarJogo() {
             console.error('Erro ao pesquisar jogo:', error);
             const resultadoPesquisa = document.getElementById('resultadoPesquisa');
             resultadoPesquisa.innerHTML = 'Jogo não encontrado.';
-            var timer = window.setTimeout(atualizarPagina, 3000);
 
         });
 }
